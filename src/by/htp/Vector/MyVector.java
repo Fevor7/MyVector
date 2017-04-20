@@ -2,17 +2,17 @@ package by.htp.Vector;
 
 import java.lang.ArrayIndexOutOfBoundsException;
 
-public class MyVictor<E> {
+public class MyVector<E> {
 	public final static double COEF = (3.0 / 2.0);
 	private int numberOfCells;
 	private Object[] array;
 	private int size;
 
-	public MyVictor() {
+	public MyVector() {
 		clear();
 	}
 
-	public MyVictor(int numberOfCells) {
+	public MyVector(int numberOfCells) {
 		size = 0;
 		this.numberOfCells = numberOfCells;
 		array = new Object[numberOfCells];

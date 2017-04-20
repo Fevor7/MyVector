@@ -7,7 +7,7 @@ public class Main {
 	}
 
 	private static void workWithMyVector() {
-		MyVictor<Person> vector = new MyVictor<Person>(11);
+		MyVector<Person> vector = new MyVector<Person>(11);
 		vector.add(new Person("Vasya1", 18));
 		vector.add(new Person("Petya2", 21));
 		vector.remove(1);
